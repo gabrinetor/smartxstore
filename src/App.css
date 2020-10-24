@@ -1,0 +1,27 @@
+:root{
+  --laranja: #FF4500;
+  --laranjaClaro: #FFA500;
+  --branco: #ffffff;
+  --escuro: #232528;
+  --azul: #0000FF;
+}
+
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--branco) !important;
+  color: var(--escuro) !important;
+}
+
+.text-title{
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-orange{
+  color: var(--laranja);
+}
+
+.text-light{
+  color: var(--branco);
+}
